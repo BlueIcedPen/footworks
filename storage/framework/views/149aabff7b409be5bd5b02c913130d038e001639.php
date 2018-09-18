@@ -1,6 +1,4 @@
-@extends('layouts.template')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 <!-- ******CONTENT****** -->
 <div class="content container">
 		<div class="page-wrapper">
@@ -23,7 +21,7 @@
 														<h4><a href="#">Become a monthly giver today.</a></h4>
 														<p style="font-size: 16px;">Monthly givers are strategic missions partners who are dedicated to make lasting impact in the Kingdom of God. Being a monthly giver is very easy, just commit to make to give any amount to support Footworks missions.</p>
 														<p style="font-size: 16px;font-style:italic;">Jesus said Verily, verily, I say unto thee, except a man be born again, he cannot see the kingdom of God. (John 3:3).</p>
-														<p class="featured-image" style="font-size: 16px;"><img class="img-responsive" src="{{asset ('images/salvation.jpg') }}" alt=""><br/>You see without believing in Jesus Christ you cannot be saved.</p>
+														<p class="featured-image" style="font-size: 16px;"><img class="img-responsive" src="<?php echo e(URL::asset ('images/salvation.jpg')); ?>" alt=""><br/>You see without believing in Jesus Christ you cannot be saved.</p>
 												</div>
 										</div>
 								</div>
@@ -55,4 +53,5 @@
 				</div><!--//page-content-->
 		</div><!--//page-->
 </div><!--//content-->
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.template', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -43,6 +43,10 @@ Route::get('salvation', function()
 {
     return View::make('pages.salvation');
 });
+Route::get('events', function()
+{
+    return View::make('pages.events');
+});
 Route::get('give', function()
 {
     return View::make('pages.give');

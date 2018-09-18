@@ -1,16 +1,14 @@
-@extends('layouts.template')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 <!-- ******CONTENT****** -->
 <div class="content container">
 		<div class="page-wrapper">
 				<header class="page-heading clearfix">
-						<h1 class="heading-title pull-left">Give 	</h1>
+						<h1 class="heading-title pull-left">Salvation 	</h1>
 						<div class="breadcrumbs pull-right">
 								<ul class="breadcrumbs-list">
 										<li class="breadcrumbs-label">You are here:</li>
 										<li><a href="index-2.html">Home</a><i class="fa fa-angle-right"></i></li>
-										<li class="current">Give</li>
+										<li class="current">Salvation</li>
 								</ul>
 						</div><!--//breadcrumbs-->
 				</header>
@@ -20,10 +18,10 @@
 										<div class="album-cover">
 												<img class="img-responsive" src="assets/images/gallery/gallery-thumb-1.jpg" alt="" />
 												<div class="desc">
-														<h4><a href="#">Become a monthly giver today.</a></h4>
-														<p style="font-size: 16px;">Monthly givers are strategic missions partners who are dedicated to make lasting impact in the Kingdom of God. Being a monthly giver is very easy, just commit to make to give any amount to support Footworks missions.</p>
+														<h4><a href="#">How to become a Christian.</a></h4>
+														<p style="font-size: 16px;">Salvation is the free gift of God to you. It is free but it has been paid for fully by Jesus' death on the cross and resurrection from the grave. To be saved means to receive complete deliverance from sin, sickness, poverty, addictions, and all other weakness of the human. It is required that you be saved.</p>
 														<p style="font-size: 16px;font-style:italic;">Jesus said Verily, verily, I say unto thee, except a man be born again, he cannot see the kingdom of God. (John 3:3).</p>
-														<p class="featured-image" style="font-size: 16px;"><img class="img-responsive" src="{{asset ('images/salvation.jpg') }}" alt=""><br/>You see without believing in Jesus Christ you cannot be saved.</p>
+														<p class="featured-image" style="font-size: 16px;"><img class="img-responsive" src="<?php echo e(URL::asset ('images/salvation.jpg')); ?>" alt=""><br/>You see without believing in Jesus Christ you cannot be saved.</p>
 												</div>
 										</div>
 								</div>
@@ -47,6 +45,10 @@
 													Enjoy this new life and get in touch with any bible believing church around you
 													We love you and glad you are a sibling in God.
 												</p>
+												<div>
+													<h3>Opportunities</h3>
+													<img class="img-responsive" src="assets/images/people/opp1.jpg" alt=""/>
+												</div>
 										</div>
 								</div>
 								
@@ -55,4 +57,5 @@
 				</div><!--//page-content-->
 		</div><!--//page-->
 </div><!--//content-->
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.template', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

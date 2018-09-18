@@ -59,7 +59,7 @@
     </div><!--//to-bar-->
     <div class="header-main container">
         <h1 class="logo col-md-4 col-sm-4">
-            <a href="<?php echo e(URL('/')); ?>"><img id="logo" src="<?php echo e(URL::asset('images/logo.png')); ?>" alt="Logo"></a>
+            <a href="<?php echo e(URL('/')); ?>"><img id="logo" src="<?php echo e(asset('images/logo.png')); ?>" alt="Logo"></a>
         </h1><!--//logo-->           
         <div class="info col-md-8 col-sm-8">
             <ul class="menu-top navbar-right hidden-xs">
