@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('content')
-<div id="promo-slider" class="slider flexslider">
+            <div id="promo-slider" class="slider flexslider">
                 <ul class="slides">
                     <li>
                         <img src="{{asset ('images/slides/slide-5.jpg') }}"  alt="" />
@@ -74,56 +74,6 @@
             </section><!--//news-->
             <div class="row cols-wrapper">
                 <div class="col-md-3">
-                    {{-- <section class="events">
-                        <h1 class="section-heading text-highlight"><span class="line">Events</span></h1>
-                        <div class="section-content">
-                            <div class="event-item">
-                                <p class="date-label">
-                                    <span class="month">FEB</span>
-                                    <span class="date-number">18</span>
-                                </p>
-                                <div class="details">
-                                    <h2 class="title">Open Day</h2>
-                                    <p class="time"><i class="fa fa-clock-o"></i>10:00am - 18:00pm</p>
-                                    <p class="location"><i class="fa fa-map-marker"></i>East Campus</p>                            
-                                </div><!--//details-->
-                            </div><!--event-item-->  
-                            <div class="event-item">
-                                <p class="date-label">
-                                    <span class="month">SEP</span>
-                                    <span class="date-number">06</span>
-                                </p>
-                                <div class="details">
-                                    <h2 class="title">E-learning at College Green</h2>
-                                    <p class="time"><i class="fa fa-clock-o"></i>10:00am - 16:00pm</p>
-                                    <p class="location"><i class="fa fa-map-marker"></i>Learning Center</p>                            
-                                </div><!--//details-->
-                            </div><!--event-item-->
-                            <div class="event-item">
-                                <p class="date-label">
-                                    <span class="month">JUN</span>
-                                    <span class="date-number">23</span>
-                                </p>
-                                <div class="details">
-                                    <h2 class="title">Career Fair</h2>
-                                    <p class="time"><i class="fa fa-clock-o"></i>09:45am - 16:00pm</p>
-                                    <p class="location"><i class="fa fa-map-marker"></i>Library</p>                            
-                                </div><!--//details-->
-                            </div><!--event-item-->
-                            <div class="event-item">
-                                <p class="date-label">
-                                    <span class="month">May</span>
-                                    <span class="date-number">17</span>
-                                </p>
-                                <div class="details">
-                                    <h2 class="title">Science Seminar</h2>
-                                    <p class="time"><i class="fa fa-clock-o"></i>14:00pm - 18:00pm</p>
-                                    <p class="location"><i class="fa fa-map-marker"></i>Library</p>                            
-                                </div><!--//details-->
-                            </div><!--event-item-->
-                            <a class="read-more" href="events.html">All events<i class="fa fa-chevron-right"></i></a>
-                        </div><!--//section-content-->
-                    </section><!--//events--> --}}
                     <section class="widget contact-sidebar has-divider home fb">
                         <iframe href="" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffootworksinternational%2F&tabs=timeline%2C%20events&width=262&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=153363994754355" width="262" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>                    </section><!--//widget--> 
                 </div><!--//col-md-3-->

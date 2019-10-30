@@ -23,7 +23,7 @@
 														<h4><a href="#">How to become a Christian.</a></h4>
 														<p style="font-size: 16px;">Salvation is the free gift of God to you. It is free but it has been paid for fully by Jesus' death on the cross and resurrection from the grave. To be saved means to receive complete deliverance from sin, sickness, poverty, addictions, and all other weakness of the human. It is required that you be saved.</p>
 														<p style="font-size: 16px;font-style:italic;">Jesus said Verily, verily, I say unto thee, except a man be born again, he cannot see the kingdom of God. (John 3:3).</p>
-														<p class="featured-image" style="font-size: 16px;"><img class="img-responsive" src="{{{ URL::secure_asset ('images/salvation.jpg') }}}" alt=""><br/>You see without believing in Jesus Christ you cannot be saved.</p>
+														<p class="featured-image" style="font-size: 16px;"><img class="img-responsive" src="{{{ URL::asset ('images/salvation.jpg') }}}" alt=""><br/>You see without believing in Jesus Christ you cannot be saved.</p>
 												</div>
 										</div>
 								</div>

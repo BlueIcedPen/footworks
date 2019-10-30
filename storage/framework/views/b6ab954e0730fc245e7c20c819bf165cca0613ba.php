@@ -11,13 +11,8 @@
         <ul class="nav navbar-nav">
             <li class="<?php echo e(Request::path() == '/' ? 'active nav-item' : 'nav-item'); ?>"><a href="<?php echo e(url('/')); ?>">Home</a></li>
             <li class="<?php echo e(Request::path() == 'salvation' ? 'active nav-item' : 'nav-item'); ?>"><a href="<?php echo e(url('salvation')); ?>">Salvation</a></li>
-            <li class="<?php echo e(Request::path() == 'missions' ? 'active nav-item dropdown' : 'nav-item dropdown'); ?>">
-                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Missions <i class="fa fa-angle-down"></i></a>
-                <ul class="dropdown-menu">
-                    <li><a href="news.html">News List</a></li>
-                    <li><a href="news-single.html">Single News (with image)</a></li>   
-                    <li><a href="news-single-2.html">Single News (with video)</a></li>          
-                </ul>
+            <li class="<?php echo e(Request::path() == 'missions' ? 'active nav-item dropdown' : 'nav-item dropdown'); ?>"><a href="<?php echo e(url('/missions')); ?>">Missions</a>
+                
             </li>
             <li class="<?php echo e(Request::path() == 'give' ? 'active nav-item' : 'nav-item'); ?>"><a href="<?php echo e(url('/give')); ?>">Give</a></li>
             <li class="<?php echo e(Request::path() == 'training' ? 'active nav-item' : 'nav-item'); ?>"><a href="<?php echo e(url('/training')); ?>">Training</a></li>

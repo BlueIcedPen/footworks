@@ -1,5 +1,5 @@
 <?php $__env->startSection('content'); ?>
-<div id="promo-slider" class="slider flexslider">
+            <div id="promo-slider" class="slider flexslider">
                 <ul class="slides">
                     <li>
                         <img src="<?php echo e(asset ('images/slides/slide-5.jpg')); ?>"  alt="" />
@@ -72,7 +72,6 @@
             </section><!--//news-->
             <div class="row cols-wrapper">
                 <div class="col-md-3">
-                    
                     <section class="widget contact-sidebar has-divider home fb">
                         <iframe href="" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffootworksinternational%2F&tabs=timeline%2C%20events&width=262&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=153363994754355" width="262" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>                    </section><!--//widget--> 
                 </div><!--//col-md-3-->
